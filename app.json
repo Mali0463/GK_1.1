@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "know-before-you-go",
+    "slug": "know-before-you-go",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "scheme": "knowbeforeyougo",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.knowbeforeyougo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.knowbeforeyougo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-asset",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff",
+          "image": "./assets/splash-icon.png"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4b7cb74a-f079-4a14-8985-5fc5e88f2e84"
+      }
+    }
+  }
+}
